@@ -2,13 +2,14 @@
 
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
  
         <title>pr1</title>
     </head>
 
     <body>
  
-        <h1>I don't know what I am doing</h1>
+        <h1>I don't know what I'm doing</h1>
         <hr>
         <br>
         
@@ -37,7 +38,72 @@
 
         <h1><span style="background-color: tomato;">This is a span title</span></h1>
         <h1><div style="background-color:aqua">This is a div title</div></h1>
+        <h4>Groceries</h4>
+        <ul>
+            <li>Milks</li>
+            <li>Eggs</li>
+            <li>Bread</li>
+            <li>Coffee</li>
+            <ul>
+                <li>coffee beans</li>
+                <li>creamer</li>
+            </ul>
+        </ul>
+
+        <h4>To do list</h4>
+        <ol>
+            <li>eat breakfast</li>
+            <li>go to class</li>
+            <li>walk dog</li>
+        </ol>
+
+        <h4>Mythical creatures</h4>
+        <dl>
+            <dt>dragon</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus reprehenderit, quasi quis voluptate repudiandae atque laborum modi itaque corporis cumque quos suscipit officiis nostrum perferendis, vel nam sunt adipisci? Iste.</dd>
+            <dt>phoenix</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repellat iusto, provident quia exercitationem reprehenderit. Accusantium tempore animi laborum nam consectetur possimus quisquam saepe non accusamus, rem sint aliquid facere!</dd>
+            <dt>vampire</dt>
+            <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex minima doloremque veniam provident, nihil nam expedita ipsum, beatae illo natus ea vitae, laborum sint iste! Doloremque reiciendis tenetur corporis fuga.</dd>
+        </dl>
+
+        <h3>Store Hours</h3>
+
+        <table border="1" style="background-color: black;">
+            <tr align="center" style="background-color: rgb(56, 196, 214);">
+                <th width="100">Sunday</th>
+                <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+            </tr>
+            <tr align="center"; style="background-color: rgb(56, 196, 214);">
+                <td>Closed</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+                <td>9-5</td>
+            </tr>
+        </table>
+        <br><br>
         
+        
+        <button onclick="doSomething()" style="font-size: 25px; background-color: bisque; border-radius: 10px;">
+            Click me
+        </button>
+        <p id="greeting">Hello</p>
+        <script>
+            function doSomething(){
+                document.getElementById("greeting").innerHTML = "Goodbye"
+
+            }
+        </script>
+
+
     </body>
 
 
