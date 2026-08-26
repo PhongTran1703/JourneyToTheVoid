@@ -1,0 +1,30 @@
+body{
+    background-color: white;
+}
+
+#p1{
+    color: brown;
+    font-size: 20px;
+}
+
+#p2{
+    color: blue;
+     font-size: 20px;
+}
+#p3{
+    color: orange;
+     font-size: 20px;
+}
+
+#p4{
+    color:green;
+     font-size: 20px;
+}
+
+.odd{
+    background-color: aqua;
+}
+.even{
+    background-color: lightcoral;
+}
+
