@@ -40,17 +40,43 @@ h1{
 
 .box{
     border: 5px solid;
+    box-sizing: border-box;
     font-size: 30px;
-    width: 100px;
+    width: 50%;
     height: 100px;
+    float: left;
+    text-align: center;
 }
 
 #box1{
    background-color: aquamarine;
-   margin: auto ;
+   
     
 }
 #box2{
     background-color: rgb(170, 63, 63);
   
+}
+
+#img1{
+    float: left;
+    margin-top: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 65px;
+}
+#pd1{
+    border: 2px solid;
+    height: 75px;
+    overflow: scroll;
+    width: 300px;
+}
+
+#sp1{
+    color: black;
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
 }
