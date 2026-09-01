@@ -22,3 +22,11 @@ button:hover {
 button:active {
     background-color: brown;
 }
+
+h1::first-letter {
+    font-size: 2em;
+}
+
+p::first-line {
+    background-color: hsl(160, 77%, 75%);
+}
