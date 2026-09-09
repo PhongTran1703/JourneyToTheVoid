@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+#display {
+    text-align: center;
+    font-size: 6em;
+    display: block;
+}
+
+#myButton{
+   font-size: 3em;
+   border-radius: 15px;
+   background-color: aquamarine;
+}
