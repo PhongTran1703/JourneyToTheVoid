@@ -5,9 +5,5 @@ body{
 #myP {
     font-size: 2em;
     color: brown;
-    border: 2px solid;
     display: inline;
-    border-radius: 20px;
-    padding: 10px;
-    
 }
